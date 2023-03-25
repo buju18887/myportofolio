@@ -27,7 +27,7 @@ const Section1 = (props) => {
             </li>
             <li className="transform hover:scale-110 transition ease-out duration-300">
               <a
-                href="https://docs.google.com/document/d/1g8gy6595r3UDFJjEB_U95H3gRUrlVxr8TAv1cd4M0Ek/edit"
+                href="https://docs.google.com/document/d/1pscMRXjm6rpDdtARbtRoN6MIpurs1zwcYHYLP7uK128/edit?usp=sharing"
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 "
               >
                 Resume
@@ -40,10 +40,10 @@ const Section1 = (props) => {
             Luqman Sserunjogi
           </h2>
           <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-            Frontend Developer
+            Software Developer
           </h3>
           <p className="text-base py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl mx-auto">
-          Welcome to my portfolio website! I'm a frontend developer with experience in building high-quality websites and web applications that are both functional and visually appealing. Contact me and let's get to work!
+          Welcome to my portfolio website! I'm a software developer with experience in building high-quality websites and web applications that are both functional and visually appealing. Contact me and let's get to work!
           </p>
         </div>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -54,7 +54,7 @@ const Section1 = (props) => {
             <AiFillGoogleCircle />
           </a>
           <a
-            href="https://linkedin.com/in/luqman-sserunjogi-b15b75266"
+            href="https://linkedin.com/in/luqman-sserunjogi"
             className="transform hover:scale-125 transition ease-out duration-300"
           >
             <AiFillLinkedin />

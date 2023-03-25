@@ -4,7 +4,7 @@ const Section3 = () => {
       <section>
         <div>
           <h3 className="text-3xl py-1 dark:text-teal-500 font-bold">
-            Portofolio
+            Projects
           </h3>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
             My portfolio showcases some of the personal projects I've worked on,
@@ -19,22 +19,37 @@ const Section3 = () => {
             exploring my work!
           </p>
         </div>
-        <div className="flex flex-col py-10 lg:flex-row lg:flex-wrap">
-          <div className="">
+        <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="basis-1/3 flex-1">
             <div className="transform hover:scale-110 transition ease-out duration-300 cursor-pointer">
-             <a href="https://yummy-recipes123.onrender.com">
-             <img
-                src="/screenshot.png"
-                alt="web1"
-                className="rounded-lg object-cover w-full h-full"
-                width={"100%"}
-                height={"100%"}
-              />
-             </a>
+              <a href="https://yummy-recipes123.onrender.com">
+                <img
+                  src="/screenshot.png"
+                  alt="web1"
+                  className="rounded-lg object-cover"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="basis-1/3 flex-1">
+            <div className="transform hover:scale-110 transition ease-out duration-300 cursor-pointer">
+              <a href="https://bujutunes.onrender.com/">
+                <img
+                  src="/screenshot2.jpg"
+                  alt="web1"
+                  className="rounded-lg object-cover"
+                />
+              </a>
             </div>
           </div>
         </div>
       </section>
+      <footer>
+        <div className="text-sm text-teal-600 py-5 flex gap-5 justify-center">
+          <p>Email: <a href="mailto:luqmantazmid123@gmail.com">luqmantazmid123@gmail.com</a> </p>
+          <p>Call: <a href="tel:+256773598861">+256773598861</a> </p>
+        </div>
+      </footer>
     </>
   );
 };
